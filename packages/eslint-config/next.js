@@ -6,4 +6,10 @@ import awesome from '@vchikalkin/eslint-config-awesome';
  *
  * @type {import("eslint").Linter.Config}
  * */
-export const nextJsConfig = [...baseConfig, ...awesome['react-typescript']];
+export const nextJsConfig = [
+  ...baseConfig,
+  ...awesome['react-typescript'],
+  {
+    ignores: ['**/.next/**'],
+  },
+];
