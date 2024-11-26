@@ -4,7 +4,7 @@
     "source.fixAll.eslint": "explicit",
     "source.removeUnusedImports": "explicit"
   },
-  "editor.formatOnSave": true,
+  // "editor.formatOnSave": true,
   "eslint.lintTask.enable": true,
   "eslint.validate": [
     "javascript",
