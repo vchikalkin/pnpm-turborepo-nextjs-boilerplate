@@ -6,11 +6,13 @@
   "exports": {
     "./base": "./base.js",
     "./next-js": "./next.js",
-    "./react-internal": "./react-internal.js"
+    "./react-internal": "./react-internal.js",
+    "./tailwind": "./tailwind.js"
   },
   "devDependencies": {
     "@vchikalkin/eslint-config-awesome": "^2.0.4",
     "eslint": "^9.15.0",
+    "eslint-plugin-tailwindcss": "^3.17.5",
     "eslint-plugin-turbo": "^2.3.0"
   }
 }

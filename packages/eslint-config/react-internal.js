@@ -5,4 +5,4 @@ import awesome from '@vchikalkin/eslint-config-awesome';
  * A custom ESLint configuration for libraries that use React.
  *
  * @type {import("eslint").Linter.Config} */
-export const config = [...baseConfig, ...awesome['react-typescript']];
+export const reactConfig = [...baseConfig, ...awesome['react-typescript']];
