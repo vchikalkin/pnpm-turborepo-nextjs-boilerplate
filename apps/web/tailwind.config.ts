@@ -1,3 +1,4 @@
+import sharedConfig from '@repo/tailwind-config';
 import { type Config } from 'tailwindcss';
 
 export default {
@@ -7,12 +8,5 @@ export default {
     './app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   plugins: [],
-  theme: {
-    extend: {
-      colors: {
-        background: 'var(--background)',
-        foreground: 'var(--foreground)',
-      },
-    },
-  },
+  presets: [sharedConfig],
 } satisfies Config;
