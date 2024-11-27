@@ -6,6 +6,9 @@ settings:
 
 catalogs:
   default:
+    '@radix-ui/react-slot':
+      specifier: ^1.1.0
+      version: 1.1.0
     '@types/node':
       specifier: ^20
       version: 20.17.8
@@ -36,6 +39,12 @@ catalogs:
     eslint-plugin-turbo:
       specifier: ^2.3.0
       version: 2.3.2
+    husky:
+      specifier: ^9.1.7
+      version: 9.1.7
+    lint-staged:
+      specifier: ^15.2.10
+      version: 15.2.10
     lucide-react:
       specifier: ^0.462.0
       version: 0.462.0
@@ -45,6 +54,9 @@ catalogs:
     postcss:
       specifier: ^8.4.49
       version: 8.4.49
+    postcss-load-config:
+      specifier: ^6.0.1
+      version: 6.0.1
     prettier:
       specifier: ^3.2.5
       version: 3.4.0
@@ -75,7 +87,7 @@ importers:
   .:
     devDependencies:
       husky:
-        specifier: ^9.1.7
+        specifier: 'catalog:'
         version: 9.1.7
       prettier:
         specifier: 'catalog:'
@@ -121,7 +133,7 @@ importers:
         specifier: 'catalog:'
         version: 10.4.20(postcss@8.4.49)
       lint-staged:
-        specifier: ^15.2.10
+        specifier: 'catalog:'
         version: 15.2.10
       postcss:
         specifier: 'catalog:'
@@ -160,7 +172,7 @@ importers:
         version: 19.0.0-rc-5c56b873-20241107(react@19.0.0-rc-5c56b873-20241107)
     devDependencies:
       '@radix-ui/react-slot':
-        specifier: ^1.1.0
+        specifier: 'catalog:'
         version: 1.1.0(@types/react@18.3.1)(react@19.0.0-rc-5c56b873-20241107)
       '@repo/eslint-config':
         specifier: workspace:*
@@ -181,7 +193,7 @@ importers:
         specifier: 'catalog:'
         version: 2.1.1
       lint-staged:
-        specifier: ^15.2.10
+        specifier: 'catalog:'
         version: 15.2.10
       lucide-react:
         specifier: 'catalog:'
@@ -190,7 +202,7 @@ importers:
         specifier: 'catalog:'
         version: 8.4.49
       postcss-load-config:
-        specifier: ^6.0.1
+        specifier: 'catalog:'
         version: 6.0.1(jiti@1.21.6)(postcss@8.4.49)(yaml@2.6.1)
       tailwind-merge:
         specifier: 'catalog:'
