@@ -25,13 +25,13 @@ importers:
         version: link:../../packages/ui
       next:
         specifier: 15.0.3
-        version: 15.0.3(react-dom@19.0.0-rc-66855b96-20241106)(react@19.0.0-rc-66855b96-20241106)
+        version: 15.0.3(react-dom@19.0.0-rc-5c56b873-20241107)(react@19.0.0-rc-5c56b873-20241107)
       react:
-        specifier: 19.0.0-rc-66855b96-20241106
-        version: 19.0.0-rc-66855b96-20241106
+        specifier: 19.0.0-rc-5c56b873-20241107
+        version: 19.0.0-rc-5c56b873-20241107
       react-dom:
-        specifier: 19.0.0-rc-66855b96-20241106
-        version: 19.0.0-rc-66855b96-20241106(react@19.0.0-rc-66855b96-20241106)
+        specifier: 19.0.0-rc-5c56b873-20241107
+        version: 19.0.0-rc-5c56b873-20241107(react@19.0.0-rc-5c56b873-20241107)
     devDependencies:
       '@repo/eslint-config':
         specifier: workspace:*
@@ -85,7 +85,7 @@ importers:
         specifier: workspace:*
         version: link:../typescript-config
       tailwindcss:
-        specifier: ^3.4.1
+        specifier: ^3.4.15
         version: 3.4.15
 
   packages/typescript-config: {}
@@ -109,17 +109,32 @@ importers:
         specifier: workspace:*
         version: link:../typescript-config
       '@types/react':
-        specifier: ^18.2.61
+        specifier: ^18.3.1
         version: 18.3.1
       autoprefixer:
         specifier: ^10.4.18
         version: 10.4.20(postcss@8.4.49)
+      class-variance-authority:
+        specifier: ^0.7.1
+        version: 0.7.1
+      clsx:
+        specifier: ^2.1.1
+        version: 2.1.1
+      lucide-react:
+        specifier: ^0.462.0
+        version: 0.462.0(react@19.0.0-rc-5c56b873-20241107)
       postcss:
-        specifier: ^8.4.35
+        specifier: ^8.4.49
         version: 8.4.49
+      tailwind-merge:
+        specifier: ^2.5.5
+        version: 2.5.5
       tailwindcss:
-        specifier: ^3.4.1
+        specifier: ^3.4.15
         version: 3.4.15
+      tailwindcss-animate:
+        specifier: ^1.0.7
+        version: 1.0.7(tailwindcss@3.4.15)
       typescript:
         specifier: 5.5.4
         version: 5.5.4
@@ -3166,6 +3181,12 @@ packages:
     engines: {node: '>=8'}
     dev: true
 
+  /class-variance-authority@0.7.1:
+    resolution: {integrity: sha512-Ka+9Trutv7G8M6WT6SeiRWz792K5qEqIGEGzXKhAE6xOWAY6pPH8U+9IY3oCMv6kqTmLsv7Xh/2w2RigkePMsg==}
+    dependencies:
+      clsx: 2.1.1
+    dev: true
+
   /clean-regexp@1.0.0:
     resolution: {integrity: sha512-GfisEZEJvzKrmGWkvfhgzcz/BllN1USeqD2V6tg14OAOgaCD2Z/PUEuxnAZ/nPvmaHRG7a8y77p1T/IRQ4D1Hw==}
     engines: {node: '>=4'}
@@ -3176,6 +3197,11 @@ packages:
   /client-only@0.0.1:
     resolution: {integrity: sha512-IV3Ou0jSMzZrd3pZ48nLkT9DA7Ag1pnPzaiQhpW7c3RbcqqzvzzVu+L8gfqMp/8IM2MQtSiqaCxrrcfu8I8rMA==}
     dev: false
+
+  /clsx@2.1.1:
+    resolution: {integrity: sha512-eYm0QWBtUrBWZWG0d386OGAw16Z995PiOVo2B7bjWSbHedGl5e0ZWaq65kOGgUSNesEIDkB9ISbTg/JK9dhCZA==}
+    engines: {node: '>=6'}
+    dev: true
 
   /color-convert@2.0.1:
     resolution: {integrity: sha512-RRECPsj7iu/xb5oKYcsFHSppFNnsj/52OVTRKb4zP5onXwVF3zVmmToNcOfGC+CRDpfK/U584fMg38ZHCaElKQ==}
@@ -5429,6 +5455,14 @@ packages:
       yallist: 3.1.1
     dev: true
 
+  /lucide-react@0.462.0(react@19.0.0-rc-5c56b873-20241107):
+    resolution: {integrity: sha512-NTL7EbAao9IFtuSivSZgrAh4fZd09Lr+6MTkqIxuHaH2nnYiYIzXPo06cOxHg9wKLdj6LL8TByG4qpePqwgx/g==}
+    peerDependencies:
+      react: ^16.5.1 || ^17.0.0 || ^18.0.0 || ^19.0.0-rc
+    dependencies:
+      react: 19.0.0-rc-5c56b873-20241107
+    dev: true
+
   /merge2@1.4.1:
     resolution: {integrity: sha512-8q7VEgMJW4J8tcfVPy8g09NcQwZdbwFEqhe/WZkoIzjn/3TGDwtOCYtXGxA3O8tPzpczCCDgv+P2P5y00ZJOOg==}
     engines: {node: '>= 8'}
@@ -5523,7 +5557,7 @@ packages:
     engines: {node: '>=18'}
     dev: true
 
-  /next@15.0.3(react-dom@19.0.0-rc-66855b96-20241106)(react@19.0.0-rc-66855b96-20241106):
+  /next@15.0.3(react-dom@19.0.0-rc-5c56b873-20241107)(react@19.0.0-rc-5c56b873-20241107):
     resolution: {integrity: sha512-ontCbCRKJUIoivAdGB34yCaOcPgYXr9AAkV/IwqFfWWTXEPUgLYkSkqBhIk9KK7gGmgjc64B+RdoeIDM13Irnw==}
     engines: {node: ^18.18.0 || ^19.8.0 || >= 20.0.0}
     hasBin: true
@@ -5550,9 +5584,9 @@ packages:
       busboy: 1.6.0
       caniuse-lite: 1.0.30001684
       postcss: 8.4.31
-      react: 19.0.0-rc-66855b96-20241106
-      react-dom: 19.0.0-rc-66855b96-20241106(react@19.0.0-rc-66855b96-20241106)
-      styled-jsx: 5.1.6(react@19.0.0-rc-66855b96-20241106)
+      react: 19.0.0-rc-5c56b873-20241107
+      react-dom: 19.0.0-rc-5c56b873-20241107(react@19.0.0-rc-5c56b873-20241107)
+      styled-jsx: 5.1.6(react@19.0.0-rc-5c56b873-20241107)
     optionalDependencies:
       '@next/swc-darwin-arm64': 15.0.3
       '@next/swc-darwin-x64': 15.0.3
@@ -5978,15 +6012,6 @@ packages:
       scheduler: 0.25.0-rc-5c56b873-20241107
     dev: false
 
-  /react-dom@19.0.0-rc-66855b96-20241106(react@19.0.0-rc-66855b96-20241106):
-    resolution: {integrity: sha512-D25vdaytZ1wFIRiwNU98NPQ/upS2P8Co4/oNoa02PzHbh8deWdepjm5qwZM/46OdSiGv4WSWwxP55RO9obqJEQ==}
-    peerDependencies:
-      react: 19.0.0-rc-66855b96-20241106
-    dependencies:
-      react: 19.0.0-rc-66855b96-20241106
-      scheduler: 0.25.0-rc-66855b96-20241106
-    dev: false
-
   /react-is@16.13.1:
     resolution: {integrity: sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==}
     dev: true
@@ -5994,12 +6019,6 @@ packages:
   /react@19.0.0-rc-5c56b873-20241107:
     resolution: {integrity: sha512-cFT1p+jDiT5MSDCOAlllNC9cN6532458CNGZMw+8u33ffZuX3yf2XJtSwar/G9t47nEmqsurdvtIjqb603735g==}
     engines: {node: '>=0.10.0'}
-    dev: false
-
-  /react@19.0.0-rc-66855b96-20241106:
-    resolution: {integrity: sha512-klH7xkT71SxRCx4hb1hly5FJB21Hz0ACyxbXYAECEqssUjtJeFUAaI2U1DgJAzkGEnvEm3DkxuBchMC/9K4ipg==}
-    engines: {node: '>=0.10.0'}
-    dev: false
 
   /read-cache@1.0.0:
     resolution: {integrity: sha512-Owdv/Ft7IjOgm/i0xvNDZ1LrRANRfew4b2prF3OWMQLxLfu3bS8FVhCsrSCMK4lR56Y9ya+AThoTpDCTxCmpRA==}
@@ -6230,10 +6249,6 @@ packages:
 
   /scheduler@0.25.0-rc-5c56b873-20241107:
     resolution: {integrity: sha512-rt9KBjQg9XWMfNl0jNAKTRReFiuAG1U5Pi7b9IMZIMXSEfu5wSCPzqvygzvO38piDJag/ljLcFULHo7oLVDh7w==}
-    dev: false
-
-  /scheduler@0.25.0-rc-66855b96-20241106:
-    resolution: {integrity: sha512-HQXp/Mnp/MMRSXMQF7urNFla+gmtXW/Gr1KliuR0iboTit4KvZRY8KYaq5ccCTAOJiUqQh2rE2F3wgUekmgdlA==}
     dev: false
 
   /scslre@0.3.0:
@@ -6528,7 +6543,7 @@ packages:
     engines: {node: '>=8'}
     dev: true
 
-  /styled-jsx@5.1.6(react@19.0.0-rc-66855b96-20241106):
+  /styled-jsx@5.1.6(react@19.0.0-rc-5c56b873-20241107):
     resolution: {integrity: sha512-qSVyDTeMotdvQYoHWLNGwRFJHC+i+ZvdBRYosOFgC+Wg1vx4frN2/RG/NA7SYqqvKNLf39P2LSRA2pu6n0XYZA==}
     engines: {node: '>= 12.0.0'}
     peerDependencies:
@@ -6542,7 +6557,7 @@ packages:
         optional: true
     dependencies:
       client-only: 0.0.1
-      react: 19.0.0-rc-66855b96-20241106
+      react: 19.0.0-rc-5c56b873-20241107
     dev: false
 
   /sucrase@3.35.0:
@@ -6584,6 +6599,18 @@ packages:
     dependencies:
       '@pkgr/core': 0.1.1
       tslib: 2.8.1
+    dev: true
+
+  /tailwind-merge@2.5.5:
+    resolution: {integrity: sha512-0LXunzzAZzo0tEPxV3I297ffKZPlKDrjj7NXphC8V5ak9yHC5zRmxnOe2m/Rd/7ivsOMJe3JZ2JVocoDdQTRBA==}
+    dev: true
+
+  /tailwindcss-animate@1.0.7(tailwindcss@3.4.15):
+    resolution: {integrity: sha512-bl6mpH3T7I3UFxuvDEXLxy/VuFxBk5bbzplh7tXI68mwMokNYd1t9qPBHlnyTwfa4JGC4zP516I1hYYtQ/vspA==}
+    peerDependencies:
+      tailwindcss: '>=3.0.0 || insiders'
+    dependencies:
+      tailwindcss: 3.4.15
     dev: true
 
   /tailwindcss@3.4.15:
