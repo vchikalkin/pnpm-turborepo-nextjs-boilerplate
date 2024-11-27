@@ -6,63 +6,9 @@ settings:
 
 catalogs:
   default:
-    '@types/node':
-      specifier: ^20
-      version: 20.17.8
-    '@types/react':
-      specifier: ^18.3.1
-      version: 18.3.1
-    '@types/react-dom':
-      specifier: ^18.3.1
-      version: 18.3.1
-    '@vchikalkin/eslint-config-awesome':
-      specifier: ^2.0.4
-      version: 2.0.4
-    autoprefixer:
-      specifier: ^10.4.20
-      version: 10.4.20
-    class-variance-authority:
-      specifier: ^0.7.1
-      version: 0.7.1
-    clsx:
-      specifier: ^2.1.1
-      version: 2.1.1
-    eslint:
-      specifier: ^9.15.0
-      version: 9.15.0
-    eslint-plugin-tailwindcss:
-      specifier: ^3.17.5
-      version: 3.17.5
-    eslint-plugin-turbo:
-      specifier: ^2.3.0
-      version: 2.3.2
-    lucide-react:
-      specifier: ^0.462.0
-      version: 0.462.0
-    next:
-      specifier: ^15.0.3
-      version: 15.0.3
-    postcss:
-      specifier: ^8.4.49
-      version: 8.4.49
     prettier:
       specifier: ^3.2.5
       version: 3.4.0
-    react:
-      specifier: 19.0.0-rc-5c56b873-20241107
-      version: 19.0.0-rc-5c56b873-20241107
-    react-dom:
-      specifier: 19.0.0-rc-5c56b873-20241107
-      version: 19.0.0-rc-5c56b873-20241107
-    tailwind-merge:
-      specifier: ^2.5.5
-      version: 2.5.5
-    tailwindcss:
-      specifier: ^3.4.15
-      version: 3.4.15
-    tailwindcss-animate:
-      specifier: ^1.0.7
-      version: 1.0.7
     turbo:
       specifier: ^2.3.2
       version: 2.3.2
@@ -74,6 +20,9 @@ importers:
 
   .:
     devDependencies:
+      husky:
+        specifier: ^9.1.7
+        version: 9.1.7
       prettier:
         specifier: 'catalog:'
         version: 3.4.0
@@ -2455,6 +2404,11 @@ packages:
 
   hosted-git-info@2.8.9:
     resolution: {integrity: sha512-mxIDAb9Lsm6DoOJ7xH+5+X4y1LU/4Hi50L9C5sIswK3JzULS4bwk1FvjdBgvYR4bzT4tuUQiC15FE2f5HbLvYw==}
+
+  husky@9.1.7:
+    resolution: {integrity: sha512-5gs5ytaNjBrh5Ow3zrvdUUY+0VxIuWVL4i9irt6friV+BqdCfmV11CQTWMiBYWHbXhco+J1kHfTOUkePhCDvMA==}
+    engines: {node: '>=18'}
+    hasBin: true
 
   ignore@5.3.2:
     resolution: {integrity: sha512-hsBTNUqQTDwkWtcdYI2i06Y/nUBEsNEDJKjWdigLvegy8kDuJAS8uRlpkkcQpyEXL0Z/pjDy5HBmMjRCJ2gq+g==}
@@ -6648,6 +6602,8 @@ snapshots:
       function-bind: 1.1.2
 
   hosted-git-info@2.8.9: {}
+
+  husky@9.1.7: {}
 
   ignore@5.3.2: {}
 

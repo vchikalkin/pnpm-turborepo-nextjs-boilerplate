@@ -4,10 +4,11 @@
   "scripts": {
     "build": "turbo build",
     "dev": "turbo dev",
-    "lint": "turbo lint",
+    "lint": "turbo lint -- --fix --max-warnings 0",
     "format": "prettier  --end-of-line lf --write \"**/*.{ts,tsx,md,mjs}\""
   },
   "devDependencies": {
+    "husky": "^9.1.7",
     "prettier": "catalog:",
     "turbo": "catalog:",
     "typescript": "catalog:"

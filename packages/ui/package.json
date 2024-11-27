@@ -22,7 +22,7 @@
   "license": "MIT",
   "scripts": {
     "ui": "pnpm dlx shadcn@latest",
-    "lint": "eslint src/",
+    "lint": "eslint",
     "type-check": "tsc --noEmit"
   },
   "devDependencies": {
