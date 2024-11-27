@@ -6,7 +6,8 @@
     "dev": "turbo dev",
     "lint": "turbo lint -- --fix --max-warnings 0",
     "format": "prettier  --end-of-line lf --write \"**/*.{ts,tsx,md,mjs}\"",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "lint-staged": "turbo lint-staged"
   },
   "devDependencies": {
     "husky": "^9.1.7",

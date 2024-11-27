@@ -23,7 +23,8 @@
   "scripts": {
     "ui": "pnpm dlx shadcn@latest",
     "lint": "eslint",
-    "type-check": "tsc --noEmit"
+    "type-check": "tsc --noEmit",
+    "lint-staged": "lint-staged"
   },
   "devDependencies": {
     "@radix-ui/react-slot": "^1.1.0",
@@ -33,6 +34,7 @@
     "autoprefixer": "catalog:",
     "class-variance-authority": "catalog:",
     "clsx": "catalog:",
+    "lint-staged": "^15.2.10",
     "lucide-react": "catalog:",
     "postcss": "catalog:",
     "postcss-load-config": "^6.0.1",
@@ -44,5 +46,10 @@
   "dependencies": {
     "react": "catalog:",
     "react-dom": "catalog:"
+  },
+  "lint-staged": {
+    "*.{js,jsx,ts,tsx,md,json}": [
+      "eslint --fix"
+    ]
   }
 }
