@@ -19,6 +19,7 @@
   },
   "devDependencies": {
     "@repo/eslint-config": "workspace:*",
+    "@repo/lint-staged-config": "workspace:*",
     "@repo/typescript-config": "workspace:*",
     "@types/node": "catalog:",
     "@types/react": "catalog:",
@@ -28,10 +29,5 @@
     "postcss": "catalog:",
     "tailwindcss": "catalog:",
     "typescript": "catalog:"
-  },
-  "lint-staged": {
-    "*.{js,jsx,ts,tsx,md,json}": [
-      "eslint --fix"
-    ]
   }
 }

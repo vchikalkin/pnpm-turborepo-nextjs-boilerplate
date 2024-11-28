@@ -29,6 +29,7 @@
   "devDependencies": {
     "@radix-ui/react-slot": "catalog:",
     "@repo/eslint-config": "workspace:*",
+    "@repo/lint-staged-config": "workspace:*",
     "@repo/typescript-config": "workspace:*",
     "@types/react": "catalog:",
     "autoprefixer": "catalog:",
@@ -46,10 +47,5 @@
   "dependencies": {
     "react": "catalog:",
     "react-dom": "catalog:"
-  },
-  "lint-staged": {
-    "*.{js,jsx,ts,tsx,md,json}": [
-      "eslint --fix"
-    ]
   }
 }
