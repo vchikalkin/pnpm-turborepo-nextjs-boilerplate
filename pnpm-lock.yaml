@@ -19,8 +19,8 @@ catalogs:
       specifier: ^18.3.1
       version: 18.3.1
     '@vchikalkin/eslint-config-awesome':
-      specifier: ^2.0.4
-      version: 2.0.4
+      specifier: ^2.0.5
+      version: 2.0.5
     autoprefixer:
       specifier: ^10.4.20
       version: 10.4.20
@@ -152,7 +152,7 @@ importers:
     devDependencies:
       '@vchikalkin/eslint-config-awesome':
         specifier: 'catalog:'
-        version: 2.0.4(@babel/core@7.25.2)(@next/eslint-plugin-next@15.0.3)(@types/node@20.17.8)(@typescript-eslint/parser@8.16.0(eslint@9.15.0(jiti@1.21.6))(typescript@5.6.2))(eslint-plugin-import-x@4.4.3(eslint@9.15.0(jiti@1.21.6))(typescript@5.6.2))(eslint@9.15.0(jiti@1.21.6))(typescript@5.6.2)
+        version: 2.0.5(@babel/core@7.25.2)(@next/eslint-plugin-next@15.0.3)(@types/node@20.17.8)(@typescript-eslint/parser@8.16.0(eslint@9.15.0(jiti@1.21.6))(typescript@5.6.2))(eslint-plugin-import-x@4.4.3(eslint@9.15.0(jiti@1.21.6))(typescript@5.6.2))(eslint@9.15.0(jiti@1.21.6))(typescript@5.6.2)
       eslint:
         specifier: 'catalog:'
         version: 9.15.0(jiti@1.21.6)
@@ -1467,8 +1467,8 @@ packages:
     resolution: {integrity: sha512-pq19gbaMOmFE3CbL0ZB8J8BFCo2ckfHBfaIsaOZgBIF4EoISJIdLX5xRhd0FGB0LlHReNRuzoJoMGpTjq8F2CQ==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
 
-  '@vchikalkin/eslint-config-awesome@2.0.4':
-    resolution: {integrity: sha512-yNulYJnMNzcPOzZK2RkLcH+TsVrEZG4VYnHF3bp3IN/No4NFRzDD5+mf9PThKd9h3PqNqqOA1R0OgLN58w+vAQ==}
+  '@vchikalkin/eslint-config-awesome@2.0.5':
+    resolution: {integrity: sha512-2l0uAwDMiwsK26TaCf64vMD4JYdkicOTPymd16Sojs8ACC3c16UvPXFRImKq1a3LvNXK08Vh2Jq2QEO+chzQPQ==}
     peerDependencies:
       '@next/eslint-plugin-next': ^15.0.3
 
@@ -5418,7 +5418,7 @@ snapshots:
       '@typescript-eslint/types': 8.16.0
       eslint-visitor-keys: 4.2.0
 
-  '@vchikalkin/eslint-config-awesome@2.0.4(@babel/core@7.25.2)(@next/eslint-plugin-next@15.0.3)(@types/node@20.17.8)(@typescript-eslint/parser@8.16.0(eslint@9.15.0(jiti@1.21.6))(typescript@5.6.2))(eslint-plugin-import-x@4.4.3(eslint@9.15.0(jiti@1.21.6))(typescript@5.6.2))(eslint@9.15.0(jiti@1.21.6))(typescript@5.6.2)':
+  '@vchikalkin/eslint-config-awesome@2.0.5(@babel/core@7.25.2)(@next/eslint-plugin-next@15.0.3)(@types/node@20.17.8)(@typescript-eslint/parser@8.16.0(eslint@9.15.0(jiti@1.21.6))(typescript@5.6.2))(eslint-plugin-import-x@4.4.3(eslint@9.15.0(jiti@1.21.6))(typescript@5.6.2))(eslint@9.15.0(jiti@1.21.6))(typescript@5.6.2)':
     dependencies:
       '@next/eslint-plugin-next': 15.0.3
       eslint-config-canonical: 44.3.31(@babel/core@7.25.2)(@types/node@20.17.8)(eslint-plugin-import-x@4.4.3(eslint@9.15.0(jiti@1.21.6))(typescript@5.6.2))(eslint@9.15.0(jiti@1.21.6))(typescript@5.6.2)

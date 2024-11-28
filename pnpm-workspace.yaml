@@ -6,7 +6,7 @@ catalog:
   "@types/node": ^20
   "@types/react": ^18.3.1
   "@types/react-dom": ^18.3.1
-  "@vchikalkin/eslint-config-awesome": ^2.0.4
+  "@vchikalkin/eslint-config-awesome": ^2.0.5
   autoprefixer: ^10.4.20
   class-variance-authority: ^0.7.1
   clsx: ^2.1.1
