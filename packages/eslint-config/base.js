@@ -15,6 +15,6 @@ export const config = [
     },
   },
   {
-    ignores: ['dist/**', '**/turbo/**', '**/.turbo/**'],
+    ignores: ['**/dist/**', '**/turbo/**', '**/.turbo/**'],
   },
 ];

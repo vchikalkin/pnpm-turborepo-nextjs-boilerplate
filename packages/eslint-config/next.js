@@ -10,15 +10,7 @@ export const nextJsConfig = [
   ...baseConfig,
   ...awesome['react-typescript'],
   {
-    rules: {
-      'import/extensions': [
-        'error',
-        'ignorePackages',
-        {
-          css: 'always',
-        },
-      ],
-    },
+   
     ignores: ['**/.next/**'],
   },
 ];
